@@ -1,0 +1,346 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow:hidden;
+}
+
+html {
+    overflow:auto;
+}
+/* inicio do header */
+header{
+    width: 100%;
+    height: 80px;
+    background-color: #545454;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+}
+
+header nav{
+    width: 500px;;
+    display: flex;
+    justify-content: space-around;
+    a{
+        color: white;
+        padding: 20px;
+    };
+    
+}
+
+header nav a:hover{
+    background-color: #ffffff;
+    border: 2px solid rgb(41, 13, 13);
+    border-radius: 12px;
+}
+
+header p{
+    color: white;
+    font-weight: 900;
+    font-size: 30px;
+}
+/* final do header */
+
+main{
+    background: linear-gradient(60deg, #aaa3a3 , #050505) ;
+}
+
+/* section1 */
+#inicio{
+    
+    background-image: url(../images/caminhaoBackground.png);
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 4vw;
+}
+
+#inicio h1{
+    color: white;
+    background-color: rgba(161, 157, 157, 0.9);
+    border: 2px solid rgb(77, 33, 33);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 4px 2px 10px black;
+    font-size: 45px;
+    padding: 1rem;
+}
+
+
+#quemSomos{
+    width: 100%;
+    height: 40vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    gap: 20px;
+    padding: 2rem
+}
+#quemSomos h2{
+    border: 2px solid rgb(187, 36, 36);
+}
+
+#quemSomos div{
+    display: flex;
+    justify-content: space-around;
+    gap: 7rem;
+}
+
+#quemSomos p{
+    font-size: 20px;
+    width: 30%;;
+    border: 2px solid rgb(39, 0, 0);
+}
+
+#quemSomos div img{
+    width: 300px;
+}
+
+#nossosServicos{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0px;
+    gap: 40px;
+}
+
+#nossosServicos h2{
+    width: 300px;
+    text-align: center;
+    
+    
+}
+#nossosServicos #opcoes{
+    height: 300px;
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+#nossosServicos #opcoes a{
+    border: 2px solid rgb(0, 0, 0);
+    max-width: 40vw;
+}
+
+#nossosServicos #opcoes a div{
+    height: 220px;
+    p{
+        color: rgb(0, 0, 0);
+        text-align: center;
+        font-size: 25px;
+    }
+}
+
+#nossosServicos #opcoes img{
+    width: 250px;
+}
+
+#contato{
+    padding: 2rem;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+#contato #conteinerform{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    height: 200px;
+    
+}
+
+#contato #conteinerform p{
+    width: 150px;
+    font-size: 20px;
+    text-align: center;
+    padding: 70px 0px;
+    overflow: hidden;
+}
+
+#contato #conteinerform #formulariodiv {
+    width: 250px;
+    height: 200px;
+    border: 2px solid black;
+    padding: 20px;
+    overflow: hidden;
+    input{
+        width: 90%;
+        height: 20px;
+        border: 2px solid black;
+        background-color: #747171;
+        box-shadow: -6px 6px 4px black;
+    }
+}
+
+#botao{
+    padding:22px ;
+    display: flex;
+    justify-content: end;
+    button{
+        width: 80px;
+        background-color: #747171;
+        box-shadow: -6px 6px 4px black;
+    }
+}
+
+    footer{
+        background-color: #545454;
+        height: 40px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        padding: 0px 2rem;
+    }
+
+    footer p{
+        color: white;
+    }
+
+@media (max-width: 720px) {
+
+       
+    header{
+        width: 100%;
+        height: 120px;
+        background-color: #545454;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        padding: 10px;
+        position: fixed;
+        overflow: hidden;
+    }
+    
+    header p{
+        overflow: hidden;
+    }
+
+    header nav{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        overflow: hidden;
+        a{
+            color: white;
+            padding: 20px;
+            
+        }
+    }
+
+#inicio{
+    
+    background-image: url(../images/caminhaoBackground.png);
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 4vw;
+}
+
+#quemSomos{
+    width: 100%;
+    height: 80vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    gap: 70px;
+    padding: 2rem
+}
+#quemSomos h2{
+    border: 2px solid rgb(231, 16, 124);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+#quemSomos div{
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#quemSomos p{
+    font-size: 20px;
+    width: 100%;;
+    height: 70%;
+    border: 2px solid rgb(18, 99, 61);
+}
+
+#quemSomos div img{
+    width: 100%;
+}
+
+    #nossosServicos{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0px;
+    gap: 40px;
+    }
+
+    #nossosServicos h2{
+        width: 300px;
+        text-align: center;
+        
+        
+    }
+    #nossosServicos #opcoes{
+        height: 100%;
+        width: 95%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #nossosServicos #opcoes a{
+        border: 2px solid rgb(30, 23, 141);
+        max-width: 100%;
+    }
+
+    #nossosServicos #opcoes a div{
+        width: 100%;
+        p{
+            color: rgb(233, 78, 78);
+            text-align: center;
+            font-size: 25px;
+        }
+    }
+
+    #nossosServicos #opcoes img{
+        width: 250px;
+    }
+    
