@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-image: url("../image/imagem-fundo\ \(1\).jpg");
+    background-size: cover;
+}
+section{
+    background-color: #4b5c49;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+form{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+div{
+    width: 100%;
+}
+
+#ano-nascimento{
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: black;
+}
+
+button{
+    width: 100%;
+    border-radius: 5px;
+    background-color: #f1c21a;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+#resposta {
+    height: 20px;
+    font-size: 16px;
+    color: white;
+}
+
+@media(max-width: 600px){
+    img{
+        width: 360px;
+    }
+}
+
+
